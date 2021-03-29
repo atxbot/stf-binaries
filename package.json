@@ -7,6 +7,9 @@
     "url": "https://github.com/codeskyblue/stf-binaries.git",
     "type": "git"
   },
+  "scripts": {
+    "sync":"bcecmd bos sync . bos:/safe-sig/opinit/atx-agent/stf-binaries/"
+  },
   "author": "codeskyblue <codeskyblue@gmail.com>",
   "license": "MIT",
   "dependencies": {
